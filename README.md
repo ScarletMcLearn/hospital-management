@@ -1,3 +1,5 @@
+![main_picture](https://user-images.githubusercontent.com/35674364/38763706-29e92d3c-3fc3-11e8-92da-e53f6a3f3ba6.JPG)
+
 # Description :point_left:
 It's a web application for managing hospitals rooms and determining the patient's priority for isolation. 
 The app provides a centralised hub for managing the patients and planning their distribution across hospital’s rooms. 
@@ -31,9 +33,9 @@ better manage the rooms assignment across patients.
 
 Data about patients and rooms is available here. The page is split into three tables. 
 
-![Dashboard]()
+![dashboard](https://user-images.githubusercontent.com/35674364/38763728-87f96086-3fc3-11e8-961a-cb5283d3fae4.JPG)
 
-![Dashboard]()
+![dasboard_2](https://user-images.githubusercontent.com/35674364/38763732-a00165b6-3fc3-11e8-9933-612ce3941c45.JPG)
 
 To clear the red warning sign you need to go on the patient’s personal page. To do that, you have to double click on his name. By clicking on the ‘Update button’ on the bottom of the page, the patient’s diagnosis in updated for the next 24 hours (consequently, the red warning sign disappears).
 
@@ -41,19 +43,20 @@ To clear the red warning sign you need to go on the patient’s personal page. T
 
 You can add a new patient in the system with his personal details and his diseases. The application automatically computes the score of the patient based on the entered diseases
 
-![Add patient page]()
+![add_new_patient](https://user-images.githubusercontent.com/35674364/38763736-bf3b3a4c-3fc3-11e8-9892-b560135edd08.JPG)
 
 ### Patient page
 
 Double click on a patient name on the dashboard to get here.
-![Patient page]()
+
+![patient_page](https://user-images.githubusercontent.com/35674364/38763743-e109c04e-3fc3-11e8-9f5a-cd45b0d5515b.JPG)
 
 
 ### System settings
 
 The control center of the application. It allows users to manage the diseases & rooms of the Hospital and create new accounts
 
-![System Settings]()
+![system_settings](https://user-images.githubusercontent.com/35674364/38763749-07d1df36-3fc4-11e8-8b1f-3d568f73c20b.JPG)
 
 # App Modules and Code organisation
 ### Modules
@@ -88,13 +91,13 @@ Folder | Content | Responsability
 # Technologies
 
 ### Backend
-![Nodejs - ExpressJS]()
+![backend](https://user-images.githubusercontent.com/35674364/38763755-440d1484-3fc4-11e8-83d4-4352cedfaad4.jpg)
 
 ### Frontend
-![jQuery]()
+![frontend](https://user-images.githubusercontent.com/35674364/38763752-2ded2234-3fc4-11e8-9857-7785af9a1831.jpg)
 
 ### Database
-![MongoDB - Mongoose]()
+![database](https://user-images.githubusercontent.com/35674364/38763757-63eaa1ae-3fc4-11e8-8bcd-2133a0f9c2c9.jpg)
 
 # REST Apis
 The backend and frontend communicate through REST Apis. On the frontend, we make Ajax requests using jQuery to the following routes: 
