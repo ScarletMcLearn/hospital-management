@@ -1,4 +1,4 @@
-// GET /app/settings         -> go the settings
+
 
 const express = require('express');
 const router = express.Router();
