@@ -2,7 +2,7 @@
 
 # Description :point_left:
 It's a web application for managing hospitals rooms and determining the patient's priority for isolation. 
-It provides a centralised hub for managing the patients and planning their distribution across hospital’s rooms. 
+This provides a centralised hub for managing the patients and planning their distribution across hospital’s rooms. 
 
 
 It allows nurses to keep track of the patients and their diseases in real time and to have an overview over the patients and rooms, and 
@@ -110,7 +110,7 @@ URI |	Returns
 /app/getrooms	| returns information about the rooms in the system
 
 
+# REFERENCE
+[Reference link](https://github.com/marik/Hospital-management-nodejs)
 
-
-
-
+![capture42325525](https://user-images.githubusercontent.com/35674364/38778020-c6e0db38-40d3-11e8-85cb-16c5311ef519.JPG)
