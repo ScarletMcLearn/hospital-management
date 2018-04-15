@@ -1,9 +1,3 @@
-/*
-    mongoDB Schema for rooms
-
-    false = free room
-    true  = occupied room
-*/
 
 const mongoose = require ('mongoose');
 
@@ -25,10 +19,6 @@ var Room = mongoose.model('Room', RoomSchema);
 var rooms = {};
 rooms["noroom"] = false;
 
-
-/*
-	Function to put the default diseases in the system
-*/
 function populateDatabase () {
     for (prop in rooms) {
         var room = Room({
@@ -36,11 +26,8 @@ function populateDatabase () {
             availability: rooms[prop]
         });
 
-		// simply save the default room in the system
         room.save().then((disease) => {
-			// do nothing
 		}, (err) => {
-			// do nothing
 		});
     }
 }
