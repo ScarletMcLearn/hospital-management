@@ -109,8 +109,7 @@ URI |	Returns
 /app/getpatient/:hospitalNumber |	returns information about a specific patient
 /app/getrooms	| returns information about the rooms in the system
 
+![capture42325525](https://user-images.githubusercontent.com/35674364/38778020-c6e0db38-40d3-11e8-85cb-16c5311ef519.JPG)
 
 # REFERENCE
-[Reference link](https://github.com/marik/Hospital-management-nodejs)
-
-![capture42325525](https://user-images.githubusercontent.com/35674364/38778020-c6e0db38-40d3-11e8-85cb-16c5311ef519.JPG)
+[ Cloned from github.com/margiki/Hospital-management-nodejs ](https://github.com/margiki/Hospital-management-nodejs)
